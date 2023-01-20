@@ -1,0 +1,169 @@
+@font-face{
+    font-family: "PoetsenOne";
+    src: url("../logo/PoetsenOne.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: "OpenSans";
+    src: url("../font/OpenSans.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+*,
+*::after,
+*::before{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --background-color-black-clear: #333333;
+    --background-color-black-dark: #000000;
+    --background-color-blue-clear: #0000FF;
+    --background-color-blue-dark: #0000CC;
+    --background-color-green-clear: #00FF00;
+    --background-color-green-dark: #00CC00;
+    --background-color-red-clear: #FF0000;
+    --background-color-red-dark: #CC0000;
+    --background-color-white-clear: #FFFFFF;
+    --background-color-white-dark: #CCCCCC;
+    --background-color-yellow-clear: #FFFF00;
+    --background-color-yellow-dark: #CCCC00;
+    --border-color-black-clear: #333333;
+    --border-color-black-dark: #000000;
+    --border-color-blue-clear: #0000FF;
+    --border-color-blue-dark: #0000CC;
+    --border-color-green-clear: #00FF00;
+    --border-color-green-dark: #00CC00;
+    --border-color-red-clear: #FF0000;
+    --border-color-red-dark: #CC0000;
+    --border-color-white-clear: #FFFFFF;
+    --border-color-white-dark: #CCCCCC;
+    --border-color-yellow-clear: #FFFF00;
+    --border-color-yellow-dark: #CCCC00;
+    --color-black-clear: #333333;
+    --color-black-dark: #000000;
+    --color-blue-clear: #0000FF;
+    --color-blue-dark: #0000CC;
+    --color-green-clear: #00FF00;
+    --color-green-dark: #00CC00;
+    --color-red-clear: #FF0000;
+    --color-red-dark: #CC0000;
+    --color-white-clear: #FFFFFF;
+    --color-white-dark: #CCCCCC;
+    --color-yellow-clear: #FFFF00;
+    --color-yellow-dark: #CCCC00;
+}
+
+html,
+body{
+    background-color: var(--background-color-white-dark);
+    color: var(--color-black-dark);
+    font-family: "OpenSans", sans-serif;
+    font-size: 16px;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1921px){
+    :root{
+        --font-logo: 34pt;
+        --font-span: 15pt;
+        --font-button: 15pt;
+        --font-input: 15pt;
+        --font-legend: 14pt;
+        --font-h1: 19pt;
+        --font-h2: 19pt;
+        --font-h3: 18pt;
+        --font-h4: 17pt;
+        --font-h5: 16pt;
+        --font-h6: 15pt;
+        --font-p: 14pt;
+        --margin-section: 10%;
+        --padding-section: 10%;
+        --margin-block: 2rem;
+        --padding-block: 2rem;
+        --margin-item: 1.25rem;
+        --padding-item: 1.25rem;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1920px){
+    :root{
+        --font-logo: 32pt;
+        --font-span: 14pt;
+        --font-button: 14pt;
+        --font-input: 14pt;
+        --font-legend: 13pt;
+        --font-h1: 18pt;
+        --font-h2: 18pt;
+        --font-h3: 17pt;
+        --font-h4: 16pt;
+        --font-h5: 15pt;
+        --font-h6: 14pt;
+        --font-p: 13pt;
+        --margin-section: 8%;
+        --padding-section: 8%;
+        --margin-block: 1.5rem;
+        --padding-block: 1.5rem;
+        --margin-item: 1rem;
+        --padding-item: 1rem;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px){
+    :root{
+        --font-logo: 30pt;
+        --font-span: 13pt;
+        --font-button: 13pt;
+        --font-input: 13pt;
+        --font-legend: 12pt;
+        --font-h1: 17pt;
+        --font-h2: 17pt;
+        --font-h3: 16pt;
+        --font-h4: 15pt;
+        --font-h5: 14pt;
+        --font-h6: 13pt;
+        --font-p: 12pt;
+        --margin-section: 6%;
+        --padding-section: 6%;
+        --margin-block: 1rem;
+        --padding-block: 1rem;
+        --margin-item: 0.75rem;
+        --padding-item: 0.75rem;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 480px){
+    :root{
+        --font-logo: 28pt;
+        --font-span: 12pt;
+        --font-button: 12pt;
+        --font-input: 12pt;
+        --font-legend: 11pt;
+        --font-h1: 16pt;
+        --font-h2: 16pt;
+        --font-h3: 15pt;
+        --font-h4: 14pt;
+        --font-h5: 13pt;
+        --font-h6: 12pt;
+        --font-p: 11pt;
+        --margin-section: 4%;
+        --padding-section: 4%;
+        --margin-block: 0.5rem;
+        --padding-block: 0.5rem;
+        --margin-item: 0.5rem;
+        --padding-item: 0.5rem;
+    }
+}

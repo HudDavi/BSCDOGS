@@ -1,0 +1,73 @@
+######################
+# TREE
+######################
+
+blog/
+    __init__.py
+    blog.py
+    config/
+        __init__.py
+        config.py
+    forms/
+        __init__.py
+        posts/
+            _init_.py
+            templates/
+            forms.py
+    home/
+        __init__.py
+        templates/
+        home.py
+    posts/
+        __init__.py
+        routes/
+            _init_.py
+            templates/
+            posts.py
+        services/
+            __init__.py
+            posts.py
+
+######################
+# SETUP
+######################
+
+version:
+
+python 3.8.10
+
+######################
+# BASE
+######################
+
+packages:
+
+setuptools
+wheel
+virtualenv
+
+pip3 install --upgrade pip --user
+pip3 install setuptools wheel virtualenv
+python -m venv blog
+blog/Scripts/activate
+deactivate
+
+######################
+# BLOG
+######################
+
+packages:
+
+flask
+jinja2
+
+pip3 install --upgrade pip
+pip3 cache purge
+pip3 install flask jinja2 --use-pep517 --use-feature=no-binary-enable-wheel-cache
+
+######################
+# RUN
+######################
+
+flask --app blog --debug run
+python blog.py

@@ -1,0 +1,110 @@
+.post{
+    display: block;
+    min-height: 1000px;
+    width: 100%;
+    padding: var(--padding-section);
+}
+
+.post-header{
+    background-color: var(--background-color-black-clear);
+    color: var(--color-white-dark);
+    display: block;
+    width: 100%;
+    padding: var(--padding-block);
+}
+
+.post-header-h1{
+    display: block;
+    font-size: var(--font-h1);
+    word-spacing: 1px;
+    width: 100%;
+}
+
+.post-article{
+    background-color: var(--background-color-white-clear);
+    color: var(--color-black-clear);
+    display: block;
+    width: 100%;
+    padding: var(--padding-block);
+}
+
+.post-article-h2{
+    display: block;
+    font-size: var(--font-h2);
+    width: 100%;
+    margin: var(--margin-item) 0;
+}
+
+.post-article-h3{
+    display: block;
+    font-size: var(--font-h3);
+    width: 100%;
+    margin: var(--margin-item) 0;
+}
+
+.post-article-h4{
+    display: block;
+    font-size: var(--font-h4);
+    width: 100%;
+    margin: var(--margin-item) 0;
+}
+
+.post-article-h5{
+    display: block;
+    font-size: var(--font-h5);
+    width: 100%;
+    margin: var(--margin-item) 0;
+}
+
+.post-article-h6{
+    display: block;
+    font-size: var(--font-h6);
+    width: 100%;
+    margin: var(--margin-item) 0;
+}
+
+.post-article-p{
+    display: block;
+    font-size: var(--font-p);
+    width: 100%;
+    margin: var(--margin-block) 0;
+}
+
+.post-article-ol,
+.post-article-ul{
+    display: flex;
+    width: 100%;
+    padding-left: var(--padding-block);
+    margin: var(--margin-block) 0;
+}
+
+.post-article-ol-li,
+.post-article-ul-li{
+    font-size: var(--font-p);
+    margin-left: var(--margin-block);
+}
+
+.post-article-p-a,
+.post-article-ol-li-a,
+.post-article-ul-li-a{
+    color: var(--color-blue-dark);
+}
+
+.post-article-p-a:hover,
+.post-article-ol-li-a:hover,
+.post-article-ul-li-a:hover{
+    text-decoration: underline;
+}
+
+.post-footer{
+    background-color: var(--background-color-black-clear);
+    color: var(--color-white-dark);
+    display: block;
+    width: 100%;
+    padding: var(--padding-block);
+}
+
+.post-footer-span{
+    display: block;
+    width: 100%;
+}

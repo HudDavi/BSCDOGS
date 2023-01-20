@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+        <meta name="description" content=""/>
+        <meta name="keywords" content=""/>
+        <title>BSC DOGS</title>
+
+        <link rel="stylesheet" type="text/css" href="/static/css/default.css"/>
+        <link rel="stylesheet" type="text/css" href="/static/css/icon.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/header.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/menu.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/sidebar.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/footer.css"/>
+		<link rel="stylesheet" type="text/css" href="/static/css/category.css"/>
+
+		<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="/static/favicon/apple-touch-icon.png"/>
+		<link rel="icon" type="image/ico" href="/static/favicon/favicon.ico"/>
+		<link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png"/>
+		<link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png"/>
+		<link rel="manifest" href="/static/manifest/site.webmanifest"/>
+    </head>
+	<body id="top">
+        {% include "header.html" %}
+
+        {% include "menu.html" %}
+
+        {% include "sidebar.html" %}
+
+        <div class="category">
+            <div class="category-grid">
+                <div class="category-grid-item">
+                    <div class="category-grid-item-block">
+                        <a class="category-grid-item-block-a" href="/category/food/intro">
+                            <img class="category-grid-item-block-a-img" src="/static/img/intro.svg" alt="Dog Food Intro" title="Dog Food Intro"/>
+                            <span class="category-grid-item-block-a-span">Alimentação Canina - Introdução</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="category-grid-item">
+                    <div class="category-grid-item-block">
+                        <a class="category-grid-item-block-a" href="/category/food/basic">
+                            <img class="category-grid-item-block-a-img" src="/static/img/basic.svg" alt="Dog Food Basic" title="Dog Food Basic"/>
+                            <span class="category-grid-item-block-a-span">Alimentação Canina - Básico</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="category-grid-item">
+                    <div class="category-grid-item-block">
+                        <a class="category-grid-item-block-a" href="/category/food/intermediary">
+                            <img class="category-grid-item-block-a-img" src="/static/img/intermediary.svg" alt="Dog Food Intermediary" title="Dog Food Intermediary"/>
+                            <span class="category-grid-item-block-a-span">Alimentação Canina - Intermediário</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="category-grid-item">
+                    <div class="category-grid-item-block">
+                        <a class="category-grid-item-block-a" href="/category/food/advanced">
+                            <img class="category-grid-item-block-a-img" src="/static/img/advanced.svg" alt="Dog Food Advanced" title="Dog Food Advanced"/>
+                            <span class="category-grid-item-block-a-span">Alimentação Canina - Avançado</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {% include "footer.html" %}
+
+        <script type="text/javascript" src="/static/js/lozad.js"></script>
+        <script type="text/javascript" src="/static/js/menu.js"></script>
+        <script type="text/javascript" src="/static/js/sidebar.js"></script>
+	</body>
+</html>
