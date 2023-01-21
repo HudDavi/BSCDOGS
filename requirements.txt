@@ -1,0 +1,6 @@
+flask
+flask_wtf
+gunicorn
+jinja2
+requests
+wtforms
