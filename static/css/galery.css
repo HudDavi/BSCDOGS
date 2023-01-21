@@ -1,0 +1,122 @@
+.galery{
+    display: block;
+    width: 100%;
+}
+
+.galery-item{
+    display: block;
+    width: 100%;
+}
+
+.galery-item-input{
+    display: none;
+}
+
+.galery-item-input:checked + .galery-item-label{
+    background-color: var(--background-color-black-clear);
+}
+
+.galery-item-label{
+    display: inline-block;
+    cursor: pointer;
+    position: fixed;
+    overflow: auto;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 100%;
+    transform: scale(0);
+    transition: transform .75s;
+}
+
+.galery-item-label-block{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.galery-item-label-block-img{
+    display: block;
+    width: 100%;
+}
+
+/***************************************/
+
+.galery-grid{
+    display: flex;
+    text-align: center;
+    overflow: auto;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    align-content: flex-start;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    padding: var(--padding-block);
+}
+
+.galery-grid-item{
+    width: 25%;
+    padding: var(--padding-block);
+}
+
+.galery-grid-item-label{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+}
+
+.galery-grid-item-label-block{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.galery-grid-item-label-block-img{
+    display: block;
+    width: 100%;
+}
+
+@media screen and (min-width: 1921px){
+    .galery-item-input:checked + .galery-item-label{
+        transform: scale(1);
+    }
+    
+    .galery-grid-item{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1920px){
+    .galery-item-input:checked + .galery-item-label{
+        transform: scale(1);
+    }
+    
+    .galery-grid-item{
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px){
+    .galery-item-input:checked + .galery-item-label{
+        transform: scale(2);
+    }
+    
+    .galery-grid-item{
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 0) and (max-width: 480px){
+    .galery-item-input:checked + .galery-item-label{
+        transform: scale(2);
+    }
+
+    .galery-grid-item{
+        width: 50%;
+    }
+}
