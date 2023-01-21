@@ -2,7 +2,7 @@
     display: block;
     min-height: 1000px;
     width: 100%;
-    padding: var(--padding-section);
+    padding: var(--padding-section) 5%;
 }
 
 .post-header{

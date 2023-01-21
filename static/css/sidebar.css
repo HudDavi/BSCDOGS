@@ -2,8 +2,7 @@
     background-color: var(--background-color-black-clear);
     font-size: var(--font-span);
     font-weight: bold;
-    position: fixed;
-    top: 150px;
+    position: absolute;
     width: 200px;
     margin-left: -200px;
     transition: margin 0.75s;

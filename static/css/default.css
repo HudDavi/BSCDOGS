@@ -65,8 +65,11 @@ html,
 body{
     background-color: var(--background-color-white-dark);
     color: var(--color-black-dark);
+    display: block;
+    position: absolute;
     font-family: "OpenSans", sans-serif;
     font-size: 16px;
+    overflow-x: hidden;
     height: 100%;
     min-height: 100%;
     width: 100%;
@@ -90,8 +93,8 @@ a{
         --font-h5: 16pt;
         --font-h6: 15pt;
         --font-p: 14pt;
-        --margin-section: 10%;
-        --padding-section: 10%;
+        --margin-section: 5%;
+        --padding-section: 5%;
         --margin-block: 2rem;
         --padding-block: 2rem;
         --margin-item: 1.25rem;
@@ -113,8 +116,8 @@ a{
         --font-h5: 15pt;
         --font-h6: 14pt;
         --font-p: 13pt;
-        --margin-section: 8%;
-        --padding-section: 8%;
+        --margin-section: 5%;
+        --padding-section: 5%;
         --margin-block: 1.5rem;
         --padding-block: 1.5rem;
         --margin-item: 1rem;
@@ -136,8 +139,8 @@ a{
         --font-h5: 14pt;
         --font-h6: 13pt;
         --font-p: 12pt;
-        --margin-section: 6%;
-        --padding-section: 6%;
+        --margin-section: 10%;
+        --padding-section: 10%;
         --margin-block: 1rem;
         --padding-block: 1rem;
         --margin-item: 0.75rem;
@@ -159,8 +162,8 @@ a{
         --font-h5: 13pt;
         --font-h6: 12pt;
         --font-p: 11pt;
-        --margin-section: 4%;
-        --padding-section: 4%;
+        --margin-section: 15%;
+        --padding-section: 15%;
         --margin-block: 0.5rem;
         --padding-block: 0.5rem;
         --margin-item: 0.5rem;
