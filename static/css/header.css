@@ -5,12 +5,12 @@
 }
 
 .header-logo{
-    display: block;
-    width: 100%;
+    display: inline-block;
     padding: var(--padding-block);
 }
 
 .header-logo-link{
+    display: flex;
     color: var(--color-red-dark);
 }
 
@@ -23,8 +23,6 @@
 }
 
 .header-logo-link-span{
-    display: inline-block;
-    position: absolute;
     font-family: "PoetsenOne";
     font-size: var(--font-logo);
     font-weight: bold;
