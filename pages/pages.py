@@ -2,9 +2,9 @@ from flask import Blueprint, render_template
 from pages.language.language import Default
 
 meta = {
-    'description': '',
+    'description': 'All about feeding, caring, health, and training dogs.',
     'keywords': '',
-    'title': '',
+    'title': 'All about feeding, caring, health, and training dogs.',
 }
 
 pages = Blueprint('pages', __name__, url_prefix='/')

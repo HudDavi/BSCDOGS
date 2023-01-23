@@ -7,9 +7,9 @@ from pages.pt.categoria.treinamento.intermediario.intermediario import treinamen
 from pages.pt.categoria.treinamento.avancado.avancado import treinamento_avancado
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'Tudo sobre treinamento de cães.',
+    'keywords': 'treinamento de cão, treinamento de cães, treinamentos de cão, treinamentos de cães',
+    'title': 'Tudo sobre treinamento de cães.',
 }
 
 treinamento = Blueprint('treinamento', __name__)

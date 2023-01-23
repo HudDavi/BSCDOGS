@@ -7,9 +7,9 @@ from pages.en.category.health.health import health
 from pages.en.category.training.training import training
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'All about feeding, caring, health, and training dogs.',
+    'keywords': 'feeding for dogs, caring for dogs, health for dogs, training for dogs',
+    'title': 'All about feeding, caring, health, and training dogs.',
 }
 
 category = Blueprint('category', __name__)

@@ -7,9 +7,9 @@ from pages.es.categoria.salud.salud import salud
 from pages.es.categoria.entrenamiento.entrenamiento import entrenamiento
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'Todo sobre alimentación, cuidado, salud y entrenamiento de perros.',
+    'keywords': 'alimentación de perros, cuidado de perros, salud de perros, entrenamiento de perros',
+    'title': 'Todo sobre alimentación, cuidado, salud y entrenamiento de perros.',
 }
 
 categoria = Blueprint('categoria', __name__)

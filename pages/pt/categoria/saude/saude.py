@@ -7,9 +7,9 @@ from pages.pt.categoria.saude.intermediario.intermediario import saude_intermedi
 from pages.pt.categoria.saude.avancado.avancado import saude_avancado
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'Tudo sobre saúde de cães.',
+    'keywords': 'saúde de cão, saúde de cães',
+    'title': 'Tudo sobre saúde de cães.',
 }
 
 saude = Blueprint('saude', __name__)

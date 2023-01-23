@@ -2,9 +2,9 @@ from flask import Blueprint, render_template
 from pages.language.language import Default
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'Dog Training - Intermediary.',
+    'keywords': 'dog training, dogs training, dog trainings, dogs trainings',
+    'title': 'Dog Training - Intermediary.',
 }
 
 posts = {
