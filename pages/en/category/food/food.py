@@ -7,9 +7,9 @@ from pages.en.category.food.intermediary.intermediary import food_intermediary
 from pages.en.category.food.advanced.advanced import food_advanced
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'All about food for dogs.',
+    'keywords': 'food for dog, food for dogs, foods for dog, foods for dogs',
+    'title': 'All about food for dogs.',
 }
 
 food = Blueprint('food', __name__)

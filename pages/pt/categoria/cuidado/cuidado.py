@@ -7,9 +7,9 @@ from pages.pt.categoria.cuidado.intermediario.intermediario import cuidado_inter
 from pages.pt.categoria.cuidado.avancado.avancado import cuidado_avancado
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'Tudo sobre cuidado de cães.',
+    'keywords': 'cuidado de cão, cuidado de cães, cuidados de cão, cuidados de cães',
+    'title': 'Tudo sobre cuidado de cães.',
 }
 
 cuidado = Blueprint('cuidado', __name__)

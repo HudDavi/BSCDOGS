@@ -7,9 +7,9 @@ from pages.en.category.care.intermediary.intermediary import care_intermediary
 from pages.en.category.care.advanced.advanced import care_advanced
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'All about care for dogs.',
+    'keywords': 'care for dog, care for dogs, cares for dog, cares for dogs',
+    'title': 'All about care for dogs.',
 }
 
 care = Blueprint('care', __name__)

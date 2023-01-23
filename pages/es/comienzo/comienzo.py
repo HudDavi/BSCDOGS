@@ -3,9 +3,9 @@ from pages.language.language import Default
 from pages.language.language import Category
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'Todo sobre alimentación, cuidado, salud y entrenamiento de perros.',
+    'keywords': 'alimentación de perros, cuidado de perros, salud de perros, entrenamiento de perros',
+    'title': 'Todo sobre alimentación, cuidado, salud y entrenamiento de perros.',
 }
 
 comienzo = Blueprint('comienzo', __name__, url_prefix='/')

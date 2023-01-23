@@ -7,9 +7,9 @@ from pages.en.category.training.intermediary.intermediary import training_interm
 from pages.en.category.training.advanced.advanced import training_advanced
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'All about training for dogs.',
+    'keywords': 'training for dog, training for dogs, trainings for dog, trainings for dogs',
+    'title': 'All about training for dogs.',
 }
 
 training = Blueprint('training', __name__)

@@ -7,9 +7,9 @@ from pages.es.categoria.alimentacion.intermediario.intermediario import alimenta
 from pages.es.categoria.alimentacion.avanzado.avanzado import alimentacion_avanzado
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'Todo sobre alimentación de perros.',
+    'keywords': 'alimentación de perro, alimentación de perros',
+    'title': 'Todo sobre alimentación de perros.',
 }
 
 alimentacion = Blueprint('alimentacion', __name__)

@@ -7,9 +7,9 @@ from pages.en.category.health.intermediary.intermediary import health_intermedia
 from pages.en.category.health.advanced.advanced import health_advanced
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'All about health for dogs.',
+    'keywords': 'health for dog, health for dogs',
+    'title': 'All about health for dogs.',
 }
 
 health = Blueprint('health', __name__)

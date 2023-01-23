@@ -2,9 +2,9 @@ from flask import Blueprint, render_template
 from pages.language.language import Default
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'Cuidado de Cães - Básico.',
+    'keywords': 'cuidado de cães, cuidados de cães, cuidado de um cão, cuidados de um cão, cuidado dos cães, cuidados dos cães',
+    'title': 'Cuidado de Cães - Básico.',
 }
 
 posts = {

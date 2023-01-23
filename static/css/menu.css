@@ -75,3 +75,12 @@
 .menu-nav-page-item-link:hover{
     color: var(--color-red-clear);
 }
+
+.menu-nav-page-item-social{
+    color: var(--color-white-clear);
+    margin-right: var(--margin-item);
+}
+
+.menu-nav-page-item-social:hover{
+    color: var(--color-red-clear);
+}

@@ -72,8 +72,7 @@
 
 .post-article-ol,
 .post-article-ul{
-    display: flex;
-    width: 100%;
+    display: inline-block;
     padding-left: var(--padding-block);
     margin: var(--margin-block) 0;
 }

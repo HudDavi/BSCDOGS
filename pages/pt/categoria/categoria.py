@@ -7,9 +7,9 @@ from pages.pt.categoria.saude.saude import saude
 from pages.pt.categoria.treinamento.treinamento import treinamento
 
 meta = {
-    'description': '',
-    'keywords': '',
-    'title': '',
+    'description': 'Tudo sobre alimentação, cuidado, saúde, e treinamento de cães.',
+    'keywords': 'alimentação de cães, cuidado de cães, saúde de cães, treinamento de cães',
+    'title': 'Tudo sobre alimentação, cuidado, saúde, e treinamento de cães.',
 }
 
 categoria = Blueprint('categoria', __name__)
