@@ -3,7 +3,7 @@ from pages.language.language import Default
 
 meta = {
     'description': 'All about feeding, caring, health, and training dogs.',
-    'keywords': '',
+    'keywords': 'feeding for dogs, caring for dogs, health for dogs, training for dogs',
     'title': 'All about feeding, caring, health, and training dogs.',
 }
 
